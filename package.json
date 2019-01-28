@@ -1,10 +1,10 @@
 {
-  "name": "stencil-starter-project-name",
-  "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "name": "datetime-picker",
+  "version": "0.1.0",
+  "description": "Web Component built with Stencil making date time picking easy. It wraps https://flatpickr.js.org",
   "module": "dist/esm/index.js",
-  "main": "dist/index.js",
-  "unpkg": "dist/ionic.js",
+  "main": "dist/datetimepicker.js",
+  "unpkg": "dist/datetimepicker.js",
   "types": "dist/types/components.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "files": [
@@ -16,9 +16,21 @@
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "@stencil/core": "~0.16.2"
+  "dependencies": {
+    "classlist-polyfill": "1.2.0"
   },
-  "license": "MIT"
+  "devDependencies": {
+    "@stencil/core": "~0.17.0",
+    "@stencil/sass": "~0.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarrvis/datetime-picker.git"
+  },
+  "author": "Michał Kaliszewski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jarrvis/datetime-picker"
+  },
+  "homepage": "https://github.com/jarrvis/datetime-picker"
 }
