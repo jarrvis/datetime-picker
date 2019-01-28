@@ -17,6 +17,7 @@
     "test.watch": "stencil test --spec --e2e --watchAll"
   },
   "dependencies": {
+    "flatpickr": "4.5.2",
     "classlist-polyfill": "1.2.0"
   },
   "devDependencies": {
